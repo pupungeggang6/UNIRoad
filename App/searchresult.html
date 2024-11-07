@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Stylesheet/main.css"/>
+        <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"/>
+        <link rel="stylesheet" href="Stylesheet/searchresult.css"/>
         <title>맛집 - 유니로드</title>
     </head>
     <body>
@@ -14,10 +15,12 @@
                 </button>
             </div>
             <div id="Search">
-                <input id="SearchTextBox" type="text"/>
-                <button id="SearchButton">
-                    <img src="Image/Search.png"></img>
-                </button>
+                <div id="SearchSub">
+                    <input id="SearchTextBox" type="text"/>
+                    <button id="SearchButton">
+                        <img src="Image/Search.png"></img>
+                    </button>
+                </div>
             </div>
             <div id="Result">
                 <table id="ResultTable">
