@@ -33,7 +33,7 @@ button {
     width: 400px;
     height: 42px;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
 }
 
@@ -62,13 +62,16 @@ button {
     position: absolute; 
     left: 4px;
     width: 240px;
+    height: 28px;
 }
 
 #SearchButton {
     position: absolute;
+    background: none;
     right: 4px;
     width: 32px;
     height: 32px;
+    padding: 0px;
 }
 
 #RandomSearch {
